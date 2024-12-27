@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListenUp- Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="leftcontainer">
+            <div class="header1">
+                <div class="logoname1 flex">
+                <div class="logoname flex">
+                    <img src="/svgs/logo.svg" class="logo invert" alt="">
+                    <div class="brandname">
+                        ListenUp
+                    </div>
+                </div>
+                <img src="/svgs/close.svg" class="close" alt="">
+            </div>
+                <div class="search">
+                    <div class="home">
+                        <img src="/svgs/home.svg" class="home2 invert" alt="" class="">
+                        <div class="home1">Home</div>
+                    </div>
+                    <div class="sear flex">
+                        <img src="/svgs/search.svg" class="searchlogo invert" alt="">
+                        <div class="searchbutton">Search</div>
+                    </div>
+                </div>
+            </div>
+            <div class="librarymain">
+                <div class="libraryheader">
+                <div class="first">
+                    <img class="library invert" src="/svgs/library.svg">
+                    <h3>Your Library</h3>
+                </div>
+                <img class="addplaylist invert" src="/svgs/addplaylist.svg" alt="">
+            </div>
+            <div class="songList" style="overflow-y:scroll">
+                <ul>
+                    <!-- <li>
+                        <img src="musiclogo.svg" class="musiclogo invert" alt="">
+                        <div class="info">
+                            <div>Song Name</div>
+                            <div>Song Artist</div>
+                        </div>
+                        <div class="playnow">
+                            <span>PlayNow</span>
+                            <img class="plays invert" src="play.svg" alt="">
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="footer flex">
+                <div><a href="/new.html"><span>Legal</span></a></div>
+                <div><a href="/new.html"><span>Privacy Center</span></a></div>
+                <div><a href="/new.html"><span>Privacy Policy</span></a>
+                </div>
+                <div><a href="/new.html"><span>Cookies</span></a></div>
+                <div><a href="/new.html"><span>About Ads</span></a></div>
+                <div><a href="/new.html"><span>Accessibility</span></a></div>
+            </div>
+        </div>
+        </div>
+        <div class="rightcontainer">
+            <div class="header2 flex">
+                <img src="/svgs/hamburger.svg" class="hamburger invert" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/512/8416/8416724.png" alt="" class="logo1 invert">
+                <div class="account flex">
+                    <button class="signupbtn invert">singup</button>
+                    <button class="loginbtn">login</button>
+                </div>
+            </div>
+            <div class="spotifyplaylist">
+                <h2 class="spotify">ListenUp Playlist</h2>
+                <div class="playlistsong">
+                    <div class="cardcontainer">
+                        <!-- <div class="card">
+                            <svg class="playbutton" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"
+                                width="50px" height="50px">
+                                <rect width="256" height="256" fill="none"></rect>
+                                <circle cx="128" cy="128" r="120" fill="#1ed760"></circle>
+                                <path fill="black" d="M108,88 L180,128 L108,168 Z"></path>
+                            </svg>
+
+
+                            <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="">
+                            <h4 class="h">Happy hit!</h4>
+                            <p class="p">Hit to boots </p>
+                        </div> -->
+                    </div>
+                </div>
+               
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+                <div class="abovebar">
+                    <div class="settime ">
+                            <div class="songtime invert"></div>
+                                <div class="songbutton flex">
+                                    <img id="previous" src="/svgs/previous.svg" alt="">
+                                    <img id="play" src="/svgs/play.svg" alt="">
+                                    <img id="next" src="/svgs/next.svg" alt="">
+                                </div>
+                        <div class="songduration invert"></div>
+                    </div>
+                    <div class="last" >
+                        <div class="songinfo invert"></div>
+                        <div class="volume-control">
+                            <img src="/svgs/volume.svg" alt="">
+                            <input type="range" id="volume" min="0" max="1" step="0.01" value="0.5">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="play">Play</div> -->
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
