@@ -22,7 +22,7 @@ Try out the website live: [Visit the ListenUp Music Player](http://listenup.free
 
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/username/listenup-music-player.git  
+   git clone https://github.com/PRATIKSINDHIYA/ListenUpWebPlayer  
    ```  
 2. Open the `index.html` file in any browser.  
 3. Add your local music files to the library and start listening!
