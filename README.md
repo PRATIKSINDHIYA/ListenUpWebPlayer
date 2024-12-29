@@ -15,7 +15,7 @@ Try out the website live: [Visit the ListenUp Music Player](http://listenup.free
 
 ## Screenshots 📸
 
-![Screenshot1](screenshot_website1.png)  
+![Screenshot1](website_demo_images/screenshot_mobile1.png)  
 ![Screenshot1](\website_demo_images\screenshot_website2.png)  
 ![Screenshot1](\website_demo_images\screenshot_mobile1.png)  
 ![Screenshot1](\website_demo_images\screenshot_mobile2.png)  
